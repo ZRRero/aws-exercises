@@ -25,3 +25,9 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 | Name         | Topic | Objective and Instructions                                | Solution                                                 | Comments |
 |--------------|-------|-----------------------------------------------------------|----------------------------------------------------------|----------|
 | Create a VPC | VPC   | [Exercise](exercises/networking/vpc/create_vpc/README.md) | [Solution](exercises/networking/vpc/create_vpc/solution) |          |
+
+### Databases
+
+| Name                                | Topic    | Objective and Instructions                                                        | Solution                                                                         | Comments |
+|-------------------------------------|----------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------|
+| Create a provisioned DynamoDB table | DynamoDB | [Exercise](exercises/database/dynamodb/create_provisioned_dynamo_table/README.md) | [Solution](exercises/database/dynamodb/create_provisioned_dynamo_table/solution) |          |
