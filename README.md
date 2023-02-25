@@ -19,3 +19,9 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 | Name                         | Topic | Objective and Instructions                                     | Solution                                                      | Comments |
 |------------------------------|-------|----------------------------------------------------------------|---------------------------------------------------------------|----------|
 | Create an IAM User and Group | IAM   | [Exercise](exercises/identity/iam/create_user_group/README.md) | [Solution](exercises/identity/iam/create_user_group/solution) |          |
+
+### Networking and Content delivery
+
+| Name         | Topic | Objective and Instructions                                | Solution                                                 | Comments |
+|--------------|-------|-----------------------------------------------------------|----------------------------------------------------------|----------|
+| Create a VPC | VPC   | [Exercise](exercises/networking/vpc/create_vpc/README.md) | [Solution](exercises/networking/vpc/create_vpc/solution) |          |
