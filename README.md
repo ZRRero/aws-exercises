@@ -9,6 +9,8 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 - [AWS](#aws)
   - [Exercises](#exercises)
     - [Security Identity and Compliance](#security-identity-and-compliance)
+    - [Networking and Content delivery](#networking-and-content-delivery)
+    - [Databases](#databases)
 
 # AWS
 
