@@ -11,6 +11,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
     - [Security Identity and Compliance](#security-identity-and-compliance)
     - [Networking and Content delivery](#networking-and-content-delivery)
     - [Databases](#databases)
+    - [Storage](#storage)
 
 # AWS
 
@@ -34,3 +35,9 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 |-------------------------------------|----------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------|
 | Create a provisioned DynamoDB table | DynamoDB | [Exercise](exercises/database/dynamodb/create_provisioned_dynamo_table/README.md) | [Solution](exercises/database/dynamodb/create_provisioned_dynamo_table/solution) |          |
 | Create a on demand DynamoDB table   | DynamoDB | [Exercise](exercises/database/dynamodb/create_on_demand_dynamo_table/README.md)   | [Solution](exercises/database/dynamodb/create_on_demand_dynamo_table/solution)   |          |
+
+### Storage
+
+| Name                                                                 | Topic | Objective and Instructions                                                      | Solution                                                                       | Comments |
+|----------------------------------------------------------------------|-------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------|
+| Create a S3 bucket with intelligent tiering and lifecycle management | S3    | [Exercise](exercises/storage/s3/bucket_intelligent_tiering_lifecycle/README.md) | [Solution](exercises/storage/s3/bucket_intelligent_tiering_lifecycle/solution) |          |
