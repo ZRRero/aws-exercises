@@ -12,6 +12,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
     - [Networking and Content delivery](#networking-and-content-delivery)
     - [Databases](#databases)
     - [Storage](#storage)
+    - [Messaging](#messaging)
 
 # AWS
 
