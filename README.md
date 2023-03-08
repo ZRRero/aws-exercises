@@ -41,3 +41,9 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 | Name                                                                 | Topic | Objective and Instructions                                                      | Solution                                                                       | Comments |
 |----------------------------------------------------------------------|-------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------|
 | Create a S3 bucket with intelligent tiering and lifecycle management | S3    | [Exercise](exercises/storage/s3/bucket_intelligent_tiering_lifecycle/README.md) | [Solution](exercises/storage/s3/bucket_intelligent_tiering_lifecycle/solution) |          |
+
+### Messaging
+
+| Name                                                             | Topic    | Objective and Instructions                                            | Solution                                                             | Comments |
+|------------------------------------------------------------------|----------|-----------------------------------------------------------------------|----------------------------------------------------------------------|----------|
+| Create a SNS topic with a subscription to a SQS queue with a DLQ | SQS, SNS | [Exercise](exercises/messaging/sqs/create_sns_sqs_with_dlq/README.md) | [Solution](exercises/messaging/sqs/create_sns_sqs_with_dlq/solution) |          |
