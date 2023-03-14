@@ -9,8 +9,14 @@ resource "aws_lambda_function" "lambda_function" {
   timeout = 1
 }
 
+resource "aws_lambda_alias" "lambda_function_alias" {
+  function_name    = aws_lambda_function.lambda_function.function_name
+  function_version = "$LATEST"
+  name             = "lambda_function_alias"
+}
+
 resource "aws_lambda_provisioned_concurrency_config" "lambda_provisioned_concurrency" {
-  function_name                     = ""
+  function_name                     = aws_lambda_alias.lambda_function_alias.function_name
   provisioned_concurrent_executions = 0
-  qualifier                         = ""
+  qualifier                         = aws_lambda_alias.lambda_function_alias.name
 }
