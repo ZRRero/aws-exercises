@@ -52,6 +52,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 
 ### Computing
 
-| Name                                                                | Topic            | Objective and Instructions                                             | Solution                                                              | Comments |
-|---------------------------------------------------------------------|------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|----------|
-| Create a Lambda function with SNS Topic trigger and SQS Destination | SNS, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md) | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution) |          |
+| Name                                                                        | Topic            | Objective and Instructions                                                 | Solution                                                                  | Comments |
+|-----------------------------------------------------------------------------|------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|----------|
+| Create a Lambda function with SNS Topic trigger and SQS Destination         | SNS, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md)     | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution)     |          |
+| Create a ECS Cluster with EC2 provider and a Load balancer with autoscaling | ECS, EC2         | [Exercise](exercises/computing/ecs/create_ecs_ec2_load_balancer/README.md) | [Exercise](exercises/computing/ecs/create_ecs_ec2_load_balancer/solution) |          |
