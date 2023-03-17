@@ -13,6 +13,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
     - [Databases](#databases)
     - [Storage](#storage)
     - [Messaging](#messaging)
+    - [Computing](#computing)
 
 # AWS
 
@@ -48,3 +49,9 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 | Name                                                             | Topic    | Objective and Instructions                                            | Solution                                                             | Comments |
 |------------------------------------------------------------------|----------|-----------------------------------------------------------------------|----------------------------------------------------------------------|----------|
 | Create a SNS topic with a subscription to a SQS queue with a DLQ | SQS, SNS | [Exercise](exercises/messaging/sqs/create_sns_sqs_with_dlq/README.md) | [Solution](exercises/messaging/sqs/create_sns_sqs_with_dlq/solution) |          |
+
+### Computing
+
+| Name                                                                | Topic            | Objective and Instructions                                             | Solution                                                              | Comments |
+|---------------------------------------------------------------------|------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|----------|
+| Create a Lambda function with SNS Topic trigger and SQS Destination | SNS, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md) | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution) |          |
