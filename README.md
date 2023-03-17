@@ -52,6 +52,6 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 
 ### Computing
 
-| Name                                                                  | Topic                    | Objective and Instructions                                             | Solution                                                              | Comments |
-|-----------------------------------------------------------------------|--------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|----------|
-| Create a Lambda function with API Gateway trigger and SQS Destination | Api Gateway, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_api_sqs/README.md) | [Solution](exercises/computing/lambda/create_lambda_api_sqs/solution) |          |
+| Name                                                                | Topic                    | Objective and Instructions                                             | Solution                                                              | Comments |
+|---------------------------------------------------------------------|--------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|----------|
+| Create a Lambda function with SNS Topic trigger and SQS Destination | Api Gateway, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md) | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution) |          |

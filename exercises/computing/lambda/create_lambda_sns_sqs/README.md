@@ -1,4 +1,4 @@
-## Computing AWS - Create a Lambda function with origin in API Gateway and destination in SQS
+## Computing AWS - Create a Lambda function with origin in SNS Topic and destination in SQS
 
 ### Objectives
 
@@ -10,8 +10,5 @@
    4. Configure the SQS queue as destination
    5. Code must be stored in S3
    6. Timeout of 1 second
-   7. 1 provisioned execution
-3. Create an HTTP API Gateway with the following characteristics
-   1. A route called POST /operations/sum that integrates with the lambda function
-   2. The route should have IAM authorization
-   3. The route should be in "development" stage
+3. Create a Standard SNS topic with all values by default
+   1. Configure the topic as origin for the lambda function

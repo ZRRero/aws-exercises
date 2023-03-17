@@ -4,7 +4,7 @@ data "aws_iam_policy_document" "lambda_policy" {
     effect = "Allow"
     actions = ["sqs:SendMessage"]
     resources = [
-      aws_sqs_queue.original_queue.arn
+      aws_sqs_queue.lambda_queue.arn
     ]
   }
 }
@@ -27,4 +27,7 @@ resource "aws_iam_role" "lambda_role" {
     name = "lambda_policy"
     policy = data.aws_iam_policy_document.lambda_policy.json
   }
+  managed_policy_arns = [
+    "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+  ]
 }
