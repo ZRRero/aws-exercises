@@ -1,9 +1,9 @@
 resource "aws_dynamodb_table" "dynamodb_table" {
   provider = aws.master_region
   name = "ATable"
-  hash_key = "aPartitionKey"
+  hash_key = "id"
   attribute {
-    name = "aPartitionKey"
+    name = "id"
     type = "S"
   }
   table_class = "STANDARD"

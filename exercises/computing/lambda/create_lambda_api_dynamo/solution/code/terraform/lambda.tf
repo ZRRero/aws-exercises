@@ -8,6 +8,11 @@ resource "aws_lambda_function" "lambda_function" {
   s3_bucket = aws_s3_bucket.storage.bucket
   s3_key = "configuration/lambda_function.zip"
   timeout = 1
+  environment {
+    variables = {
+      "DYNAMO_TABLE": aws_dynamodb_table.dynamodb_table.name
+    }
+  }
 }
 
 resource "aws_lambda_alias" "lambda_alias" {
