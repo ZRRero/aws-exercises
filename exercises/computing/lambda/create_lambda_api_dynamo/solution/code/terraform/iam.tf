@@ -2,7 +2,7 @@ data "aws_iam_policy_document" "lambda_policy" {
   statement {
     sid = "AllowSQS"
     effect = "Allow"
-    actions = ["dynamnodb:GetItem", "dynamodb:PutItem"]
+    actions = ["dynamodb:GetItem", "dynamodb:PutItem"]
     resources = [
       aws_dynamodb_table.dynamodb_table.arn
     ]
