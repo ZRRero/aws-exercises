@@ -52,6 +52,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 
 ### Computing
 
-| Name                                                                | Topic            | Objective and Instructions                                             | Solution                                                              | Comments |
-|---------------------------------------------------------------------|------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------|----------|
-| Create a Lambda function with SNS Topic trigger and SQS Destination | SNS, Lambda, SQS | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md) | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution) |          |
+| Name                                                                  | Topic                         | Objective and Instructions                                                | Solution                                                                 | Comments |
+|-----------------------------------------------------------------------|-------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
+| Create a Lambda function with SNS Topic trigger and SQS Destination   | SNS, Lambda, SQS              | [Exercise](exercises/computing/lambda/create_lambda_sns_sqs/README.md)    | [Solution](exercises/computing/lambda/create_lambda_sns_sqs/solution)    |          |
+| Create a Lambda function with proxy API Gateway and DynamoDB database | API Gateway, Lambda, DynamoDB | [Exercise](exercises/computing/lambda/create_lambda_api_dynamo/README.md) | [Solution](exercises/computing/lambda/create_lambda_api_dynamo/solution) |          |
