@@ -2,7 +2,7 @@
 
 ### Solution
 
-This solution is provided using AWS Console and Terraform, North Virginia (us-east-1) will be used
+This solution is provided using AWS Console, Terraform and Pulumi, North Virginia (us-east-1) will be used
 
 1. Enter to VPC and click on Create VPC button ![1](images/1.png)
 2. Select VPC and more option ![2](images/2.png)
