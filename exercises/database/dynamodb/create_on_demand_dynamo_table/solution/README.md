@@ -2,6 +2,8 @@
 
 ### Solution
 
+This solution is provided using AWS Console, Terraform and Pulumi, North Virginia (us-east-1) will be used
+
 1. Enter the DynamoDB dashboard and click on create table ![1](images/1.png)
 2. Enter the table name ![2](images/2.png)
 3. Fill the partition key and sort key, select number for the sort key ![3](images/3.png)
