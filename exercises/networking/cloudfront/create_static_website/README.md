@@ -1,4 +1,4 @@
-## Cloudfront - Create a static website in S3 and put it behind Cloudfront with an OAI (Origin Access Identity)
+## Cloudfront - Create a static website in S3 and put it behind Cloudfront
 
 ### Objectives
 
@@ -8,4 +8,4 @@
     3. Public read access for everyone
 2. Create a CloudFront distribution with the following characteristics
     1. Origin to the S3 static website
-    2. OAI to the S3 static website
+    2. It should redirect all HTTP to HTTPS
