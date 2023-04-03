@@ -13,7 +13,7 @@ data "aws_iam_policy_document" "storage_public_access" {
 }
 
 resource "aws_s3_bucket" "storage" {
-  provider = aws.master_region
+#  provider = aws.master_region
   bucket = "myamazingdeveloperwebsite.com"
 }
 
@@ -24,17 +24,17 @@ resource "aws_s3_bucket_policy" "storage_policy" {
 }
 
 resource "aws_s3_object" "index_object" {
-  provider = aws.master_region
   bucket = aws_s3_bucket.storage.bucket
   key    = "index.html"
   source = "index.html"
+  content_type = "text/html"
 }
 
 resource "aws_s3_object" "error_object" {
-  provider = aws.master_region
   bucket = aws_s3_bucket.storage.bucket
   key    = "error.html"
   source = "error.html"
+  content_type = "text/html"
 }
 
 resource "aws_s3_bucket_public_access_block" "storage_access_block" {
