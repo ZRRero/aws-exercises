@@ -30,7 +30,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 | Name                                           | Topic          | Objective and Instructions                                                  | Solution                                                                   | Comments |
 |------------------------------------------------|----------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------|
 | Create a VPC                                   | VPC            | [Exercise](exercises/networking/vpc/create_vpc/README.md)                   | [Solution](exercises/networking/vpc/create_vpc/solution)                   |          |
-| Create a static website with S3 and Cloudfront | S3, Cloudfront | [Exercise](exercises/networking/cloudfront/create_static_website/README.md) | [Exercise](exercises/networking/cloudfront/create_static_website/solution) |          | 
+| Create a static website with S3 and Cloudfront | S3, Cloudfront | [Exercise](exercises/networking/cloudfront/create_static_website/README.md) | [Solution](exercises/networking/cloudfront/create_static_website/solution) |          | 
 
 ### Databases
 
