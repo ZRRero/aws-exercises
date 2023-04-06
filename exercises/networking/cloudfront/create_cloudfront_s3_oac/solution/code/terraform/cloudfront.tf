@@ -13,7 +13,7 @@ resource "aws_cloudfront_origin_access_control" "images_origin" {
 resource "aws_cloudfront_distribution" "s3_distribution" {
   provider = aws.master_region
   origin {
-
+    origin_access_control_id = aws_cloudfront_origin_access_control.images_origin.id
     domain_name = aws_s3_bucket.storage.bucket
     origin_id   = local.origin_id
   }

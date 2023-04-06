@@ -1,14 +1,19 @@
 data "aws_iam_policy_document" "storage_public_access" {
   statement {
     principals {
-      identifiers = ["*"]
-      type        = "*"
+      identifiers = ["cloudfront.amazonaws.com"]
+      type = "AWS"
     }
     effect = "Allow"
     actions = [
       "s3:GetObject"
     ]
     resources = ["${aws_s3_bucket.storage.arn}/*"]
+    condition {
+      test     = "StringEquals"
+      values   = [aws_cloudfront_distribution.s3_distribution.arn]
+      variable = "AWS:SourceArn"
+    }
   }
 }
 
@@ -25,14 +30,12 @@ resource "aws_s3_bucket_policy" "storage_policy" {
 
 resource "aws_s3_object" "image_one" {
   bucket = aws_s3_bucket.storage.bucket
-  key    = "index.html"
-  source = "index.html"
-  content_type = "text/html"
+  key    = "bailarina.jpg"
+  source = "bailarina.jpg"
 }
 
 resource "aws_s3_object" "image_two" {
   bucket = aws_s3_bucket.storage.bucket
-  key    = "error.html"
-  source = "error.html"
-  content_type = "text/html"
+  key    = "astronauta.jpg"
+  source = "astronauta.jpg"
 }
