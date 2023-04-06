@@ -9,3 +9,4 @@
     1. Origin to the S3 bucket
     2. It should redirect all HTTP to HTTPS
     3. Access control configured to the S3 bucket 
+    4. Price class North America and Europe
