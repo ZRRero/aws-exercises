@@ -14,7 +14,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   provider = aws.master_region
   origin {
     origin_access_control_id = aws_cloudfront_origin_access_control.images_origin.id
-    domain_name = aws_s3_bucket.storage.bucket
+    domain_name = aws_s3_bucket.storage.bucket_regional_domain_name
     origin_id   = local.origin_id
   }
   enabled = true
