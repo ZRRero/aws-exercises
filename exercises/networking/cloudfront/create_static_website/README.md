@@ -9,3 +9,4 @@
 2. Create a CloudFront distribution with the following characteristics
     1. Origin to the S3 static website
     2. It should redirect all HTTP to HTTPS
+    3. Price class North America and Europe
