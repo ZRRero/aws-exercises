@@ -16,7 +16,7 @@ policy_data = iam.get_policy_document_output(statements=[
             identifiers=["*"],
         )],
         actions=["s3:GetObject"],
-        resources=["{}/*".format(bucket.arn)]
+        resources=[bucket.arn.apply(lambda v: f"{v}/*")]
     )
 ])
 public_access = s3.BucketPublicAccessBlock("PublicAccess", bucket=bucket.id)
