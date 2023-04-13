@@ -34,3 +34,7 @@ Code for this solution is available [here](https://github.com/ZRRero/blacklist-a
 28. Click on "Next"
 29. Give the role a name
 30. Click on "Create role"
+31. Go to ECS dashboard and click on "Create cluster"
+32. Fill with a name
+33. Select a VPC and subnets
+34. Leave as default and click on "Create"
