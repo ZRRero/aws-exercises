@@ -38,3 +38,14 @@ Code for this solution is available [here](https://github.com/ZRRero/blacklist-a
 32. Fill with a name
 33. Select a VPC and subnets
 34. Leave as default and click on "Create"
+35. Go to Task definitions and click on "Create task definition"
+36. Fill the name
+37. In the Image URI field of container paste your ECR image URI and give it a name
+38. In Port mappings add your port with GRPC protocol
+39. In environment variables add BLACKLIST_TABLE and the name of the DynamoDB table
+40. Click on "Next"
+41. On task size choose whatever you want, in this case .5 vCPU and 1 GB Memory will be used
+42. On Task Role select the role you created
+43. On Task Execution role select "Create new role"
+44. Leave others by default and click on "Next"
+45. Review your task definition and click on "Create"
