@@ -1,4 +1,4 @@
-## ECS - Create a ECS cluster and GRPC service with an ALB and DynamoDB connection
+## ECS - Create an ECS cluster and GRPC service with an ALB and DynamoDB connection
 
 ### Solution
 
@@ -49,3 +49,12 @@ Code for this solution is available [here](https://github.com/ZRRero/blacklist-a
 43. On Task Execution role select "Create new role"
 44. Leave others by default and click on "Next"
 45. Review your task definition and click on "Create"
+46. Go to EC2 dashboard and click on "Target Groups"
+47. Click on "Create target group"
+48. As we are using ECS with Fargate select "IP Addresses"
+49. Fill a name
+50. Select your preferred VPC
+51. Select GRPC
+52. Leave healthcheck as default, the application will respond an Unimplemented - 12 code
+53. Click on "next"
+54. Click on "Create target group"
