@@ -1,0 +1,1 @@
+subnets = ["subnetA", "subnetB"]
