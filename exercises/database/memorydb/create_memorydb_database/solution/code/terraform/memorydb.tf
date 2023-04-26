@@ -3,7 +3,7 @@ resource "random_password" "root_password" {
 }
 
 resource "aws_security_group" "security_group" {
-  name = "security_group"
+  name = "security-group"
   vpc_id = var.vpc_id
   ingress {
     from_port = 6379
@@ -34,7 +34,7 @@ resource "aws_memorydb_acl" "acl" {
 }
 
 resource "aws_memorydb_subnet_group" "subnet_group" {
-  name = "subnet_group"
+  name = "subnet-group"
   subnet_ids = var.subnets_ids
 }
 
