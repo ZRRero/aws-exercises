@@ -39,6 +39,7 @@ These exercises aim to improve your understanding of AWS Cloud using Hands on la
 |-------------------------------------|----------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------|
 | Create a provisioned DynamoDB table | DynamoDB | [Exercise](exercises/database/dynamodb/create_provisioned_dynamo_table/README.md) | [Solution](exercises/database/dynamodb/create_provisioned_dynamo_table/solution) |          |
 | Create a on demand DynamoDB table   | DynamoDB | [Exercise](exercises/database/dynamodb/create_on_demand_dynamo_table/README.md)   | [Solution](exercises/database/dynamodb/create_on_demand_dynamo_table/solution)   |          |
+| Create a MemoryDB database          | MemoryDB | [Exercise](exercises/database/memorydb/create_memorydb_database/README.md)        | [Exercise](exercises/database/memorydb/create_memorydb_database/solution)        |          |
 
 ### Storage
 
