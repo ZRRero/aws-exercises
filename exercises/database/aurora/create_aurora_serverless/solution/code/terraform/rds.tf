@@ -35,7 +35,7 @@ resource "aws_rds_cluster" "aurora_cluster" {
   db_subnet_group_name = aws_db_subnet_group.subnet_group.name
   vpc_security_group_ids = [aws_security_group.security_group.id]
   database_name = "database"
-  scaling_configuration {
+  serverlessv2_scaling_configuration {
     min_capacity = 0.5
     max_capacity = 4
   }
