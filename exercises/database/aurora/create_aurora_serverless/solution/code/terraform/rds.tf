@@ -28,13 +28,14 @@ resource "aws_rds_cluster" "aurora_cluster" {
   provider = aws.master_region
   cluster_identifier = "aurora-cluster"
   engine = "aurora-postgresql"
-  engine_mode = "serverless"
+  engine_mode = "provisioned"
   engine_version = "14.6"
   master_username = "root"
   master_password = random_password.rds_password.result
   db_subnet_group_name = aws_db_subnet_group.subnet_group.name
   vpc_security_group_ids = [aws_security_group.security_group.id]
-  database_name = "database"
+  database_name = "some_database"
+  skip_final_snapshot = true
   serverlessv2_scaling_configuration {
     min_capacity = 0.5
     max_capacity = 4
